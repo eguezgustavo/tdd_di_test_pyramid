@@ -3,13 +3,16 @@ Find poorly written unit tests and explain why.
 
 The application will try to fetch jokes from [chucknorris.io](https://api.chucknorris.io/) and show them in the console.
 
-Intall the dependencies
+Change to the workshop-1 directory
+```
+cd workshop-1
+```
+Install the dependencies
 ```
 npm install
 ```
 
-To run the tests use:
+Run the tests using:
 ```
-cd workshop-1
 npm test
 ```

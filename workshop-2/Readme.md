@@ -3,13 +3,16 @@ A team has developed a joke adapter that has two methods: getJoke and getJokes. 
 
 Write your test inside the test folder in the three-jokes_test.js file.
 
-Intall the dependencies
+Change to the workshop-2 directory
+```
+cd workshop-2
+```
+Install the dependencies
 ```
 npm install
 ```
 
-To run the tests use:
+Run the tests using:
 ```
-cd workshop-2
 npm test
 ```

@@ -1,4 +1,6 @@
 # TDD, Dependency Injection and Test pyramid workshop
+Note: To run this workshop use node 13 or above
+
 ## Unit Tests
 - Single responsibility
 - No side effects (Therefore, mocks are needed)
@@ -12,7 +14,7 @@
     - Mock dependencies that cause side effects
     - It's up to you
 ### Workshop 1 (Spot the poorly written unit tests)
-[click here to go to workshop 1](workshop-1/Readme.md)
+[click here to go to workshop 1](workshop-1/README.md)
 
 ## TDD (Test driven development)
 - It is a way of writing code
