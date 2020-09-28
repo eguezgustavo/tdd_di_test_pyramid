@@ -32,6 +32,33 @@ __Advantages__
 - Forces you to write single units which are more easy to maintain, extend and code
 - Do not implement more code than needed
 
+## TDD Tips and tricks<br/>
+__1. Naming the test__<br/>
+- There is no rule but spending some time naming the test is worthy
+- It is better if your name has the following parts:
+  - Name of the method or function you are testing
+  - What the method or function is supposed to do
+  - Under what state of the arguments
+- Example of the name of a unit test
+```
+function sum                    ReturnsTeSum     OfTwoPositiveNumbers
+         ---                    -------------    --------------------
+          |                           |                   |
+        name of the method      What it does     State of the arguments
+```
+
+__2. Parts of the test__
+A test hast three parts:
+- Setup (creating mocks or the values of the arguments)
+- Execution (calling the method or function)
+- Assertion (assert that mocks were called and right values are returned)
+__Tips__:
+- Write the execution first. At this point your code doesn't exist so you are calling a function that does not exist. Write the function as you want it to be used instead of writing what it does.
+- Once you call the function you will not what the state of the arguments should be. It's time to write the setup
+- Finally write the assertions
+- This is not a rule, sometimes you'll find yourself writing the setup first.
+- If it is possible split up the test parts using an empty line or two
+
 ### Workshop 2 (Write a micro app using TDD)
 [click here to go to workshop 2](workshop-2/Readme.md)
 
